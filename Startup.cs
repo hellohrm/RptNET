@@ -40,10 +40,10 @@ namespace RptNET {
                 });
             });
 
-             if(!RuntimeInformation.IsOSPlatform(OSPlatform.Windows)) {
+/*              if(!RuntimeInformation.IsOSPlatform(OSPlatform.Windows)) {
                 DevExpress.Printing.CrossPlatform.CustomEngineHelper.RegisterCustomDrawingEngine(
                     typeof(DevExpress.CrossPlatform.Printing.DrawingEngine.PangoCrossPlatformEngine));
-            }
+            } */
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
