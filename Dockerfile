@@ -1,17 +1,6 @@
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
 
-RUN apt-get update && \
-    apt-get install -y software-properties-common && \
-    add-apt-repository 'deb http://deb.debian.org/debian sid main' && \
-    apt-get update && \
-    apt-get install -y \
-        libgdiplus \
-        libicu-dev \
-        libharfbuzz0b \
-        libfontconfig1 \
-        libfreetype6 \
-        libpango-1.0-0 \
-        libpangocairo-1.0
+RUN ln -s /lib/x86_64-linux-gnu/libdl-2.24.so /lib/x86_64-linux-gnu/libdl.so
 
 WORKDIR /app
 
