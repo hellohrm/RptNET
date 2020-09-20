@@ -14397,6 +14397,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "h:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine-2020.1\\CS\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine\\ReportingWebApp\\Views\\Home\\Viewer.cshtml",
+      "TargetPath": "Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine-2020.1\\CS\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine\\ReportingWebApp\\Views\\Home\\Viewer.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "h:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14407,8 +14412,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "h:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\ReportingWebApp\\Views\\Home\\Index.cshtml",
-      "TargetPath": "ReportingWebApp\\Views\\Home\\Index.cshtml",
+      "FilePath": "h:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine-2020.1\\CS\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine\\ReportingWebApp\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine-2020.1\\CS\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine\\ReportingWebApp\\Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14417,8 +14422,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "h:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\ReportingWebApp\\Views\\Home\\Viewer.cshtml",
-      "TargetPath": "ReportingWebApp\\Views\\Home\\Viewer.cshtml",
+      "FilePath": "h:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine-2020.1\\CS\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine\\ReportingWebApp\\Views\\Home\\Designer.cshtml",
+      "TargetPath": "Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine-2020.1\\CS\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine\\ReportingWebApp\\Views\\Home\\Designer.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14427,13 +14432,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "h:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\ReportingWebApp\\Views\\Home\\Designer.cshtml",
-      "TargetPath": "ReportingWebApp\\Views\\Home\\Designer.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "h:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\ReportingWebApp\\Views\\_ViewImports.cshtml",
-      "TargetPath": "ReportingWebApp\\Views\\_ViewImports.cshtml",
+      "FilePath": "h:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine-2020.1\\CS\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine\\ReportingWebApp\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine-2020.1\\CS\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine\\ReportingWebApp\\Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14442,13 +14442,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "h:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\ReportingWebApp\\Views\\_ViewStart.cshtml",
-      "TargetPath": "ReportingWebApp\\Views\\_ViewStart.cshtml",
+      "FilePath": "h:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine-2020.1\\CS\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine\\ReportingWebApp\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine-2020.1\\CS\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine\\ReportingWebApp\\Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "h:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\ReportingWebApp\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "ReportingWebApp\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "h:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine-2020.1\\CS\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine\\ReportingWebApp\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine-2020.1\\CS\\Reporting-Use-the-DevExpress-CrossPlatform-Drawing-Engine\\ReportingWebApp\\Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],

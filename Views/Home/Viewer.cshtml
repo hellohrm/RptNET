@@ -1,5 +1,17 @@
-<link rel="stylesheet" href="~/css/viewer.part.bundle.css" />
+@using RptNET.PredefinedReports
 
-<script src="~/js/viewer.part.bundle.js"></script>  
+@{
+    var viewerRender = Html.DevExpress().WebDocumentViewer("DocumentViewer")
+        .Height("1000px")
+        .Bind("TestReport");
+    @viewerRender.RenderHtml()
+}
 
-@Html.DevExpress().WebDocumentViewer("DocumentViewer").Height("1000px").Bind("TestReport")
+@section Scripts {
+    <link href="~/css/dx-reporting-skeleton-screen.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/viewer.part.bundle.css" />
+    <script src="~/js/reporting.thirdparty.bundle.js"></script>
+    <script src="~/js/viewer.part.bundle.js"></script>
+
+    @viewerRender.RenderScripts()
+}

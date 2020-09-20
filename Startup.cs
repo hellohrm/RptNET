@@ -2,41 +2,34 @@ using System;
 using System.IO;
 using DevExpress.AspNetCore;
 using DevExpress.AspNetCore.Reporting;
-using DevExpress.XtraReports.Web.Extensions;
+using DevExpress.DataAccess.Excel;
+using DevExpress.DataAccess.Sql;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.FileProviders;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using ReportingWebApp.Services;
+using DevExpress.XtraReports.Web.Extensions;
+using RptNET.Services;
 using System.Runtime.InteropServices;
 
-namespace ReportingWebApp {
+namespace RptNET {
     public class Startup {
-		public Startup(IConfiguration configuration, IWebHostEnvironment hostingEnvironment) {
+        public Startup(IConfiguration configuration, IWebHostEnvironment hostingEnvironment) {
             Configuration = configuration;
-            FileProvider = hostingEnvironment.ContentRootFileProvider;
         }
 
-        public IFileProvider FileProvider { get; }
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services) {
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 9172cb170ccdbacbb9425e304728b34736c2b87b
             services.AddDevExpressControls();
-
             services.AddScoped<ReportStorageWebExtension, CustomReportStorageWebExtension>();
-
             services
                 .AddMvc()
-				.AddNewtonsoftJson()
+                .AddNewtonsoftJson()
                 .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
             services.ConfigureReportingServices(configurator => {
                 configurator.ConfigureReportDesigner(designerConfigurator => {
@@ -47,35 +40,33 @@ namespace ReportingWebApp {
                 });
             });
 
-<<<<<<< HEAD
-            if (!RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-            {
-=======
-            // https://docs.devexpress.com/XtraReports/401730/create-end-user-reporting-applications/web-reporting/asp-net-core-reporting/use-the-devexpress-cross-platform-drawing-engine
-            if(!RuntimeInformation.IsOSPlatform(OSPlatform.Windows)) {
->>>>>>> 9172cb170ccdbacbb9425e304728b34736c2b87b
+             if(!RuntimeInformation.IsOSPlatform(OSPlatform.Windows)) {
                 DevExpress.Printing.CrossPlatform.CustomEngineHelper.RegisterCustomDrawingEngine(
-                    typeof(
-                        DevExpress.CrossPlatform.Printing.DrawingEngine.PangoCrossPlatformEngine
-                    ));
+                    typeof(DevExpress.CrossPlatform.Printing.DrawingEngine.PangoCrossPlatformEngine));
             }
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-		public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) {
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) {
+            var reportingLogger = loggerFactory.CreateLogger("DXReporting");
+            DevExpress.XtraReports.Web.ClientControls.LoggerService.Initialize((exception, message) => {
+                var logMessage = $"[{DateTime.Now}]: Exception occurred. Message: '{message}'. Exception Details:\r\n{exception}";
+                reportingLogger.LogError(logMessage);
+            });
             DevExpress.XtraReports.Configuration.Settings.Default.UserDesignerOptions.DataBindingMode = DevExpress.XtraReports.UI.DataBindingMode.Expressions;
             app.UseDevExpressControls();
+            System.Net.ServicePointManager.SecurityProtocol |= System.Net.SecurityProtocolType.Tls12;
             if(env.IsDevelopment()) {
                 app.UseDeveloperExceptionPage();
-			} else {
+            } else {
                 app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
-            
             app.UseStaticFiles();
-			app.UseRouting();
+            
+            app.UseRouting();
 
             app.UseAuthorization();
             app.UseEndpoints(endpoints => {
@@ -83,7 +74,6 @@ namespace ReportingWebApp {
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
-            
         }
     }
 }

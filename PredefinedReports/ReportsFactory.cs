@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ReportingWebApp.PredefinedReports
+namespace RptNET.PredefinedReports
 {
     public static class ReportsFactory
     {

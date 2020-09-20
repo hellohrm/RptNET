@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\RptNET\\RptNET\\RptNET.csproj": {}
+    "H:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\RptNET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\RptNET\\RptNET\\RptNET.csproj": {
+    "H:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\RptNET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\RptNET\\RptNET\\RptNET.csproj",
+        "projectUniqueName": "H:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\RptNET.csproj",
         "projectName": "RptNET",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\RptNET\\RptNET\\RptNET.csproj",
+        "projectPath": "H:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\RptNET.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\RptNET\\RptNET\\obj\\",
+        "outputPath": "H:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "G:\\Clone_NEWDATA\\DEVEXPRESS_HOME\\V20.1\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +39,7 @@
           "dependencies": {
             "DevExpress.CrossPlatform.Printing.DrawingEngine": {
               "target": "Package",
-              "version": "[1.0.6, )"
+              "version": "[*, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",

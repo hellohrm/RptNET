@@ -1,13 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ReportingWebApp.Controllers {
+namespace RptNET.Controllers {
     public class HomeController : Controller {
         public IActionResult Index() {
             return View();
         }
-    
+
         public IActionResult Designer() {
-            return View();
+            Models.ReportDesignerModel model = new Models.ReportDesignerModel();
+            return View(model);
         }
 
         public IActionResult Viewer() {
