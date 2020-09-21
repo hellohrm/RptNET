@@ -39,7 +39,11 @@
           "dependencies": {
             "DevExpress.CrossPlatform.Printing.DrawingEngine": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[1.0.6, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[4.5.3.3, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -52,10 +56,6 @@
             "System.Data.SQLite": {
               "target": "Package",
               "version": "[1.0.109.2, )"
-            },
-            "System.Drawing.Common": {
-              "target": "Package",
-              "version": "[4.7.0, )"
             }
           },
           "imports": [
