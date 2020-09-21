@@ -180,3 +180,11 @@ H:\VM\PCs\XP32\vmCenterData\api_nodejs_example-master\RptNET\obj\Debug\netcoreap
 H:\VM\PCs\XP32\vmCenterData\api_nodejs_example-master\RptNET\obj\Debug\netcoreapp3.1\RptNET.dll
 H:\VM\PCs\XP32\vmCenterData\api_nodejs_example-master\RptNET\obj\Debug\netcoreapp3.1\RptNET.pdb
 H:\VM\PCs\XP32\vmCenterData\api_nodejs_example-master\RptNET\obj\Debug\netcoreapp3.1\RptNET.genruntimeconfig.cache
+H:\VM\PCs\XP32\vmCenterData\api_nodejs_example-master\RptNET\bin\Debug\netcoreapp3.1\RptNET.exe.config
+H:\VM\PCs\XP32\vmCenterData\api_nodejs_example-master\RptNET\bin\Debug\netcoreapp3.1\Reports\TestReport.repx
+H:\VM\PCs\XP32\vmCenterData\api_nodejs_example-master\RptNET\bin\Debug\netcoreapp3.1\CairoSharp.dll
+H:\VM\PCs\XP32\vmCenterData\api_nodejs_example-master\RptNET\bin\Debug\netcoreapp3.1\DevExpress.CrossPlatform.Printing.DrawingEngine.dll
+H:\VM\PCs\XP32\vmCenterData\api_nodejs_example-master\RptNET\bin\Debug\netcoreapp3.1\GLibSharp.dll
+H:\VM\PCs\XP32\vmCenterData\api_nodejs_example-master\RptNET\bin\Debug\netcoreapp3.1\PangoSharp.dll
+H:\VM\PCs\XP32\vmCenterData\api_nodejs_example-master\RptNET\bin\Debug\netcoreapp3.1\EPPlus.dll
+H:\VM\PCs\XP32\vmCenterData\api_nodejs_example-master\RptNET\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll

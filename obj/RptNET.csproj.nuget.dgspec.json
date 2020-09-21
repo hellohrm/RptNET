@@ -14,12 +14,16 @@
         "outputPath": "H:\\VM\\PCs\\XP32\\vmCenterData\\api_nodejs_example-master\\RptNET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "G:\\Clone_NEWDATA\\DEVEXPRESS_HOME\\V20.1\\Components\\System\\Components\\Packages": {},
           "G:\\Clone_NEWDATA\\DEVEXPRESS_HOME\\V20.1\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
           "https://api.nuget.org/v3/index.json": {}
         },
