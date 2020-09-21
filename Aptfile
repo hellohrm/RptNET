@@ -1,5 +1,4 @@
 # you can list packages
-libpq-dev
 libc6-dev
 libgdiplus
 libx11-dev
